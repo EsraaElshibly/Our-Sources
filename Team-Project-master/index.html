@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Acadamy</title>
+    <link id="styling" rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="edits">
+    <!-- start header -->
+    <header class="header">
+        <div class="container">
+            <!-- start navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-none text-center">
+                <div class="container">
+                    <a class="navbar-brand" href="#">logo & slogo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item nava active">
+                            <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item nava">
+                            <a class="nav-link" href="/blogs/Blogs.HTML" >Blogs</a>
+                            </li>
+                            <li class="nav-item dropdown nava ">
+                            <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+                            <div class="dropdown-menu color" aria-labelledby="navbarDrop-down">
+                                <a class="dropdown-item dark" href="#">Front-end</a>
+                                <a class="dropdown-item dark" href="#">Back-End</a>
+                                <a class="dropdown-item dark" href="#">Android</a>
+                                <a class="dropdown-item dark" href="#">IOS</a>
+                            </div>
+                            </li>
+                            <li class="nav-item nava">
+                            <a class="nav-link " href="#"  tabindex="-1" aria-disabled="true">Team</a>
+                            </li>
+                            <li class="nav-item nava">
+                                <a class="nav-link " href="#"  tabindex="-1" aria-disabled="true">Contact Us</a>
+                            </li>
+                            <li class="nav-item dropdown mood">
+                                <a class="nav-link mod dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Mood
+                                </a>
+                                <div class="dropdown-menu color" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item dark" id="style1" onclick="useStyle(1)" href="#">Defualt Mood</a>
+                                <a class="dropdown-item dark" id="style2" onclick="useStyle(2)" href="#">Dark Mood</a>
+                                </div>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+          </nav>
+    <!-- end navbar -->
+            <h2 class="slogan">Our Slogan</h2>
+        </div>
+        </header>
+    <!-- end header -->
+    <!-- start arrow to slide up -->
+        <div id="scrollUp" onclick="topFunction()">
+            <i class="fa fa-arrow-circle-up fa-3x"></i>
+        </div>
+    <!-- end arrow to slide up -->
+    <!-- start about us -->
+        <section class="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg col-md-12 col-sm-12 photos">
+                        <img src="images/helloquence-5fNmWej4tAA-unsplash.jpg"  alt="labtop">
+                        <img src="images/tyler-franta-iusJ25iYu1c-unsplash.jpg" alt="labtop">
+                    </div>
+                    <div class="text col-lg col-md-12 col-sm-12">
+                        <span>About Us</span>
+                        <h3>Website Name</h3>
+                        <p> Our goal is to create a community of programmers <br>by Gathering the best resources for teaching Web Development<br>from A to Z with a Recommended videos and articles<br> Whether you want to be a Front-End, Back-End or Fullstack 
+                        </p>
+                        <button>Know More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- end about us -->
+    <!-- start our-sources -->
+        <section class="our-sources" >
+            <div class="container">
+                <h3 class="text-center">Our Sources</h3>
+                <div id="slides" class="carousel slide" data-ride="carousel">
+                    <a class="arrow" href="#slides" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-circle-left fa-3x"></i>
+                    </a>
+                    <a class="arrow" href="#slides" role="button" data-slide="next">
+                        <i class="fa fa-arrow-circle-right fa-3x"></i>
+                    </a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/elzero.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Elzero Web School</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/user/OsamaElzero" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/LearninArabic.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Learn in Arabic تعلموا بالعربية </h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>                                        .</p>
+                                      <a target="_blank" href="https://www.youtube.com/channel/UCiit2m7skf-rTBNVJEnHWoQ" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/kmr.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kmr Script</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/channel/UCJll21tIkkkjdWcRSaAWEQA" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/WebProgrammingUNPAS.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Web Programming UNPAS</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/channel/UCkXmLjEr95LVtGuIm3l2dPg" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/netninja.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Net Ninja</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/mosh.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Programming With Mosh</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/user/programmingwithmosh" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/Traversy Media.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Traversy Media</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/user/TechGuyWeb" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/Vish Academy.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Vish Academy</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/user/VishAcademy" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/Academind.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Academind</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/Unique Coderz Academy.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Unique Coderz Academy</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/channel/UCq_xgufsy1KrGsmJq7mFH-g" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-12 col-lg-3 col-md-6" style="width: 18rem;">
+                                    <img src="images/freeCodeCamp.org.jpg" class="card-img-top" alt="icon">
+                                    <div class="card-body">
+                                      <h5 class="card-title">freeCodeCamp.org</h5>
+                                      <p class="card-text">Some quick example text to build on the Free Code Camp and make up the bulk of the card's content.</p>
+                                      <a target="_blank" href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" class="link btn btn-primary">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- end our-sources -->
+    <!-- start contact-us -->
+    <section class="contact-us">
+        <div class="container">
+            <div class="row">
+                <form action="" class="forma col-sm-12 col-md-12 col-lg-6">
+                    <h4 class="text-center">Contact Us</h4>
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="E-mail">
+                    <textarea type="text" placeholder="You're Message"></textarea>
+                    <button>Send</button>
+                </form>
+                <div class="photo col-lg-6 col-md-12 col-md-12">
+                    <img src="images/christopher-gower-vjMgqUkS8q8-unsplash.jpg" alt="laptop">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact-us -->
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-lg-6 col-sm-12">our Logo</div>
+                <div class="teams col-lg-3 col-sm-6">
+                    <h5>Go to</h5>
+                    <div>
+                        <a href="#">Bloges</a>
+                        <a href="#">Courses</a>
+                        <a href="#">Team</a>
+                        <a href="#">contact-us</a>
+                    </div>
+                </div>
+                <div class="teams col-lg-3 col-sm-6">
+                    <h5>more</h5>
+                    <div>
+                        <a href="#">GitHub Org</a>
+                        <a href="#">GitHub Repo</a>
+                        <a href="#">Website Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="links text-center">
+               <i class="fa fa-facebook fa-2x"></i>
+               <i class="fa fa-instagram fa-2x"></i>
+               <i class="fa fa-linkedin fa-2x"></i>
+               <i class="fa fa-google-plus fa-2x"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+        <script src="js/main.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/prooper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    <body>

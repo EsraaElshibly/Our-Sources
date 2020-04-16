@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>NodeJsBlogs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/LinkBlogs.css"
+    />
+    <script defer src="css/fontawesome-free-5.13.0-web/js/brands.js"></script>
+    <script
+      defer
+      src="css/fontawesome-free-5.13.0-web/js/fontawesome.js"
+    ></script>
+    <script defer src="css/fontawesome-free-5.13.0-web/js/solid.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/Blogs.JS"></script>
+  </head>
+
+  <body>
+    <!--  region -->
+    <div class="container_img">
+      <h2 id="text_blog">Node.js Blogs</h2>
+      <img src="images/img_head.png" class="img-responsive" />
+    </div>
+    <!-- end region -->
+
+    <div class="container">
+      <div class="col-lg-12">
+        <div id="card_blog">
+          <a
+            id="hrf"
+            href="https://3alam.pro/abdullascript/articles/what-is-nodejs"
+          >
+            عالم البرمجة</a
+          >
+          <p>
+            ماهو ال<span id="lun_cod">Node.js</span>؟ كثير ماسمع المطورين بهذا
+            الإطار في الفتره الاخيره حيث حصد هذا الاطار على اهتمام الكثير من
+            المبرمجين في مجال تطوير الويب لما يقدمه من امور خرافيه نوعا ما و
+            مستوى جديد كليا في هذا العالم. ال
+            <span id="lun_cod">Node.js</span> هو اطار عمل برمج العديد من وحداته
+            Modules الأساسية بلغه ال <span id="lun_cod">JavaScript</span> تم
+            تطويره من قبل مبرمج امريكي يعيش في المانيا يدعى ريان دال و السوبر
+            فايز جوينت، و كان اول إطلاق لهذا الباترن في عام 2009. من المعروف بأن
+            لغة الجافا سكربت هي لغة الClient Side، بمعنى ذلك انها لغة تعمل بجانب
+            المستخدم وليس في السيرفر ولكن بعد تطوير ريان دال لهذا الباترن (النود
+            جي اس) الذي يعمل بمحرك قوقل V8 والعديد من الlibraries الاخرى اصبح
+            الامر اكثر تعقيدا من ذي قبل و تحول هذا الإطار بالعمل في السيرفر كمثل
+            الPHP، بمعنى اخر، ال<span id="lun_cod">Node.js</span> اصبح إطار عمل
+            Functionality حركية و ديناميكية بشكل تام بإمكانك التعامل مع قواعد
+            البيانات وما الى ذلك من خلاله بكل سهوله. يستخدم إطار ال<span
+              id="lun_cod"
+              >Node.js</span
+            >
+            لبرمجة تطبيقات الويب بالتحديد و المواقع بشكل عام، يعتمد في عمله على
+            الevents او باللغة العربية تدعى ( المناسبات ) لذلك اي شي يحصل على
+            السيرفر يقوم بإطلاق non-blocking event كل كونكشن جديد => fires event
+            ، معلومات مرسله من فورم => fires event ، طلب بيانات من قاعدة
+            البيانات من قبل المستخدم => fires event. عمليا، هذا يعني ان الموقع
+            او التطبيق لا يمكن ان يتاخر بتنفيذ مناسبة event حتى لو دخله او
+            استخدمه آلاف المستخدمين في نفس الوقت لان إطار ال
+            <span id="lun_cod">Node.js</span> برمج ليكون Non-Blocking بذلك
+            الأوامر يتم تنفيذها بالتوازي بخلاف الPHP التي هي لغة block until
+            completion اي ان الاوامر لايتم تنفيذها الا بتنفيذ ما سبق من اوامر
+            وهذا هو الفرق الاكبر مابين PHP &
+            <span id="lun_cod">Node.js</span> وهذا هو سبب تميز إطار عمل النود
+            وسبب السرعه الرهيبه في تنفيذ الاوامر.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div id="card_blog">
+          <a id="hrf" href="https://nodejs.dev/">Nodejs</a>
+          <p>
+            r<span id="lun_cod">Node.js</span> is an open-source and
+            cross-platform <span id="lun_cod">JavaScript</span> runtime
+            environment. It is a popular tool for almost any kind of project!
+
+            <span id="lun_cod">Node.js</span> runs the V8
+            <span id="lun_cod">JavaScript</span> engine, the core of Google
+            Chrome, outside of the browser. This allows
+            <span id="lun_cod">Node.js</span> to be very performant. A
+            <span id="lun_cod">Node.js</span> app is run in a single process,
+            without creating a new thread for every request.
+            <span id="lun_cod">Node.js</span> provides a set of asynchronous I/O
+            primitives in its standard library that prevent
+            <span id="lun_cod">JavaScript</span> code from blocking and
+            generally, libraries in <span id="lun_cod">Node.js</span> are
+            written using non-blocking paradigms, making blocking behavior the
+            exception rather than the norm. When
+            <span id="lun_cod">Node.js</span> needs to perform an I/O operation,
+            like reading from the network, accessing a database or the
+            filesystem, instead of blocking the thread and wasting CPU cycles
+            waiting, <span id="lun_cod">Node.js</span> will resume the
+            operations when the response comes back. This allows
+            <span id="lun_cod">Node.js</span> to handle thousands of concurrent
+            connections with a single server without introducing the burden of
+            managing thread concurrency, which could be a significant source of
+            bugs.
+
+            <span id="lun_cod">Node.js</span> has a unique advantage because
+            millions of frontend developers that write
+            <span id="lun_cod">JavaScript</span> for the browser are now able to
+            write the server-side code in addition to the client-side code
+            without the need to learn a completely different language. In
+            <span id="lun_cod">Node.js</span> the new ECMAScript standards can
+            be used without problems, as you don't have to wait for all your
+            users to update their browsers - you are in charge of deciding which
+            ECMAScript version to use by changing the
+            <span id="lun_cod">Node.js</span> version, and you can also enable
+            specific experimental features by running
+            <span id="lun_cod">Node.js</span> with flags.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div id="card_blog">
+          <a id="hrf" href="https://www.w3schools.com/nodejs/nodejs_intro.asp"
+            >W3schools</a
+          >
+
+          <p>
+            Why <span id="lun_cod">Node.js</span>? <br />
+            <span id="lun_cod">Node.js</span> uses asynchronous programming!<br />
+
+            A common task for a web server can be to open a file on the server
+            and return the content to the client.<br />
+
+            Here is how PHP or ASP handles a file request:<br />
+
+            Sends the task to the computer's file system.<br />
+            Waits while the file system opens and reads the file.<br />
+            Returns the content to the client.<br />
+            Ready to handle the next request.<br />
+            Here is how <span id="lun_cod">Node.js</span> handles a file
+            request:<br />
+
+            Sends the task to the computer's file system.<br />
+            Ready to handle the next request.<br />
+            When the file system has opened and read the file, the server
+            returns the content to the client.<br />
+            <span id="lun_cod">Node.js</span> eliminates the waiting, and simply
+            continues with the next request.<br />
+
+            <span id="lun_cod">Node.js</span> runs single-threaded,
+            non-blocking, asynchronously programming, which is very memory
+            efficient.<br />
+
+            What Can <span id="lun_cod">Node.js</span> Do?<br />
+            <span id="lun_cod">Node.js</span> can generate dynamic page
+            content<br />
+            <span id="lun_cod">Node.js</span> can create, open, read, write,
+            delete, and close files on the server<br />
+            <span id="lun_cod">Node.js</span> can collect form data<br />
+            <span id="lun_cod">Node.js</span> can add, delete, modify data in
+            your database<br />
+            What is a <span id="lun_cod">Node.js</span> File?<br />
+            <span id="lun_cod">Node.js</span> files contain tasks that will be
+            executed on certain events<br />
+            A typical event is someone trying to access a port on the server<br />
+            <span id="lun_cod">Node.js</span> files must be initiated on the
+            server before having any effect<br />
+            <span id="lun_cod">Node.js</span> files have extension ".js"
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="pt-6 mfooter">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase col-md-5 div_logo">
+            Logo
+          </h5>
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto col-md-offset-1 div_ul">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4 div_ult">
+              Team
+            </h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto div_ul">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4 div_ult">
+              Team
+            </h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto div_ul">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4 div_ult">
+              Team
+            </h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+              <li>
+                <a id="name" href="#!">Name</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid row -->
+      </div>
+
+      <!-- Footer Links -->
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center mifgi">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1 icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1 icon">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1 icon">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1 icon">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

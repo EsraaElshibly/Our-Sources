@@ -1,0 +1,144 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*Start section from html css html5 css3nbootstrap js jquery*/ 
+.frontend{
+   background-color: #f5f8f7;
+
+}
+ .frontend .front  {
+  font-size:100;
+  font-family: fantasy;
+  margin-left: 50px;
+  color: black;
+  padding-top: 25px;
+  text-shadow: 1px 2px 3px #A7A5A6, 
+               2px 3px 5px #9F9F9F
+}
+/*section style*/
+ .frontend #videosection
+{
+  margin-top:5;
+  margin-bottom:5;   
+}
+/*h1 style*/
+  .frontend #videosection .help
+{
+  color:cornflowerblue;
+}
+/*p style*/
+ .frontend #videosection .lead{
+  color: black;
+  font-size: 25;
+}
+  /* div from videos style*/
+ .frontend #videosection .bootstrap1
+{
+   box-shadow:  1px 1px 1px #337ab7;
+   padding: 0px;
+   margin: 20px;
+   border-radius: 8px;
+   background-color: #d9edf7; 
+   text-align: center;
+   overflow: hidden;
+   height:300px;
+   width: 250px;  
+}
+/* div from back*/
+ .frontend #videosection .bttn1
+{
+   box-shadow:  1px 1px 1px #337ab7;
+   padding: 0px;
+   margin: 20px;
+   
+   background-color: #efeeee;
+   text-align: center;
+   overflow: hidden;
+   height:280px;
+
+   width: 250px;  
+}
+/*hr style*/
+.frontend .mu
+{
+  width:700px;
+  box-shadow: 1px 1px #337ab7 ;
+  
+}
+/* button style*/
+.frontend #videosection .bttn1 .bootstrapbutton
+{
+  padding: 10px 20px;
+  border-radius: 8px;
+  
+  width: 160px;
+}
+/*button back end*/
+.frontend #videosection .bootstrap1 .bttn
+{
+   padding: 5px;
+  width: 120px;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(91, 192, 222);
+  border-color: rgb(70, 184, 218);
+
+padding: 10px 20px;
+}
+/*h2 style*/
+.frontend #videosection .bootstrap1 .head
+{
+  color: black;
+  font-size:20;
+}
+/*h2 back*/
+.frontend #videosection .bttn1 .head
+{
+  color: black;
+  font-size:20;
+}
+/* icons from js and jquery style */
+.frontend #videosection .help .fa{
+  color:yellow;
+  font-size:35;
+}
+/* icons sourse style  */
+.frontend #videosection .bootstrap1 .head .sp{
+  font-size: medium;
+  color:darkblue;
+}
+/* icons h1 style */
+.frontend #videosection .help .boo{
+  color: black;
+}
+/* word (practies)  style*/
+ .frontend #videosection .bootstrap1 .head .pra{
+  color: red;
+  font-size:20;
+}
+
+/*End section from html css html5 css3nbootstrap js jquery  */
+/*hr between front and back */
+.line{
+   width: 1200px;
+  box-shadow: 1px 1px black;
+  margin-top: 50px;
+}
+/*scroll button*/
+.bttn2{
+  font-weight:800;
+    color: blue;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    margin-top:650;
+    border-radius: 500px;
+    border: azure;
+    margin-left: 1420px;
+  position: fixed;
+}
+
